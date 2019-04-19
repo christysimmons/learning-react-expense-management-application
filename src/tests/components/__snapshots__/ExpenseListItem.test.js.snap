@@ -1,0 +1,228 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render ExpenseListItem from array item 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ExpenseListItem
+    amount={3300}
+    createdAt={-1728000000}
+    description="Beer bar"
+    id="03"
+    note="Good beer. Too much of it."
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <Link
+          to="/edit/03"
+>
+           
+          <h3>
+                    Beer bar
+                     
+          </h3>
+           
+</Link>,
+        <p>
+          3300
+           - 
+          -1728000000
+           
+</p>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            " ",
+            <h3>
+              Beer bar
+               
+</h3>,
+            " ",
+          ],
+          "to": "/edit/03",
+        },
+        "ref": null,
+        "rendered": Array [
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "Beer bar",
+                " ",
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              "Beer bar",
+              " ",
+            ],
+            "type": "h3",
+          },
+          " ",
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            3300,
+            " - ",
+            -1728000000,
+            " ",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          3300,
+          " - ",
+          -1728000000,
+          " ",
+        ],
+        "type": "p",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <Link
+            to="/edit/03"
+>
+             
+            <h3>
+                        Beer bar
+                         
+            </h3>
+             
+</Link>,
+          <p>
+            3300
+             - 
+            -1728000000
+             
+</p>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              " ",
+              <h3>
+                Beer bar
+                 
+</h3>,
+              " ",
+            ],
+            "to": "/edit/03",
+          },
+          "ref": null,
+          "rendered": Array [
+            " ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "Beer bar",
+                  " ",
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                "Beer bar",
+                " ",
+              ],
+              "type": "h3",
+            },
+            " ",
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              3300,
+              " - ",
+              -1728000000,
+              " ",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            3300,
+            " - ",
+            -1728000000,
+            " ",
+          ],
+          "type": "p",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": false,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
