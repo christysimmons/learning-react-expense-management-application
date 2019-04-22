@@ -1,2 +1,5 @@
 node_modules/
-/react_app_commands.txt
+public/bundle.js
+public/bundle.js.map
+public/styles.css
+public/styles.css.map
