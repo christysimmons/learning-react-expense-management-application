@@ -36,12 +36,6 @@ ShallowWrapper {
 >
           Create 
 </NavLink>,
-        <NavLink
-          activeClassName="is-active"
-          to="/edit"
->
-          Edit 
-</NavLink>,
       ],
     },
     "ref": null,
@@ -84,19 +78,6 @@ ShallowWrapper {
         "rendered": "Create ",
         "type": [Function],
       },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "function",
-        "props": Object {
-          "activeClassName": "is-active",
-          "children": "Edit ",
-          "to": "/edit",
-        },
-        "ref": null,
-        "rendered": "Edit ",
-        "type": [Function],
-      },
     ],
     "type": "header",
   },
@@ -122,12 +103,6 @@ ShallowWrapper {
             to="/create"
 >
             Create 
-</NavLink>,
-          <NavLink
-            activeClassName="is-active"
-            to="/edit"
->
-            Edit 
 </NavLink>,
         ],
       },
@@ -169,19 +144,6 @@ ShallowWrapper {
           },
           "ref": null,
           "rendered": "Create ",
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "activeClassName": "is-active",
-            "children": "Edit ",
-            "to": "/edit",
-          },
-          "ref": null,
-          "rendered": "Edit ",
           "type": [Function],
         },
       ],
