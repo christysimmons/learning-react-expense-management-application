@@ -1,5 +1,5 @@
 Arguments: 
-  C:\Users\morrisc3\Code Resources\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add numeral@2.0.6
+  C:\Users\morrisc3\Code Resources\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add firebase
 
 PATH: 
   C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\morrisc3\Code Resources\;C:\Program Files (x86)\Yarn\bin\;C:\Users\morrisc3\AppData\Local\Microsoft\WindowsApps;C:\Users\morrisc3\AppData\Local\atom\bin;C:\Users\morrisc3\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\morrisc3\AppData\Roaming\npm;c:\Users\morrisc3\Code Resources\node.js;C:\Users\morrisc3\AppData\Local\Yarn\bin;C:\Program Files\heroku\bin
@@ -45,6 +45,7 @@ npm manifest:
       "moment": "2.18.1",
       "node-sass": "^4.11.0",
       "normalize.css": "7.0.0",
+      "numeral": "^2.0.6",
       "raf": "3.3.2",
       "react": "16.0.0",
       "react-addons-shallow-compare": "15.6.0",
@@ -59,7 +60,7 @@ npm manifest:
       "uuid": "3.1.0",
       "validator": "8.0.0",
       "webpack": "3.1.0"
-    }, 
+    },
     "devDependencies": {
       "enzyme": "3.0.0",
       "enzyme-adapter-react-16": "^1.12.1",
@@ -4928,6 +4929,11 @@ Lockfile:
     version "1.0.1"
     resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
     integrity sha1-CXtgK1NCKlIsGvuHkDGDNpQaAR0=
+  
+  numeral@^2.0.6:
+    version "2.0.6"
+    resolved "https://registry.yarnpkg.com/numeral/-/numeral-2.0.6.tgz#4ad080936d443c2561aed9f2197efffe25f4e506"
+    integrity sha1-StCAk21EPCVhrtnyGX7//iX05QY=
   
   "nwmatcher@>= 1.3.9 < 2.0.0":
     version "1.4.4"
