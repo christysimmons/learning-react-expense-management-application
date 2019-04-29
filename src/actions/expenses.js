@@ -1,23 +1,47 @@
 import uuid from 'uuid';
+import db from '../firebase/firebase'
+
+//No database action workflow
+
+//component calls action generator
+//action generator returns ---(expense) object---
+//component dispatches object to store
+//redux store updates with new object information
+
+//Now with database action workflow
+
+//component calls action generator
+//action generator returns ---function---
+//component dispatches (?) function ---middleware---
+//function runs, updating store, adding to db, other actions as warranted
+
 
 //Add Expense
-export const addExpense = (
-    {
-        description = '', 
-        note='', 
-        amount = 0,
-        createdAt = 0
-    } = {}
-) => ({
+export const addExpense = (expense) => ({
     type: 'ADD_EXPENSE',
-    expense: {
-        id: uuid(),
-        description,
-        note,
-        amount, 
-        createdAt
-    }
+    expense
 }); 
+
+//Add Expense database call
+
+export const startAddExpense = (expenseData = {}) => {
+    return (dispatch) => {
+        const { 
+            description = '', 
+            note='', 
+            amount = 0,
+            createdAt = 0
+        } = expenseData;
+        const expense = { description, note, amount, createdAt }; 
+        
+        return db.ref('expenses').push(expense).then((ref) => {
+            dispatch(addExpense({
+                id: ref.key,
+                ...expense
+            }));
+        })
+    };
+};
 
 //Edit Expense
 
