@@ -51,7 +51,7 @@ export const editExpense = (id, updates) => ({
     updates
 });
 
-//set_expenses on database
+//set_expenses from database to redux store
 
 export const setExpenses = (expenses) => ({
     type: 'SET_EXPENSES', 
@@ -80,3 +80,11 @@ export const removeExpense = ({ id }) => ({
     type: 'REMOVE_EXPENSE',
     id
 });
+
+export const startRemoveExpense = ({ id }) => {
+    return (dispatch) => {
+        return db.ref(`expenses/${id}`).remove().then(() => {
+            dispatch(removeExpense({ id }));
+        });
+    }
+};
