@@ -1,421 +1,54 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Should render default message when expense array is empty 1`] = `
-ShallowWrapper {
-  "length": 1,
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <ExpenseList
-    expenses={Array []}
-/>,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateError": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "host",
-    "props": Object {
-      "children": <p>
-        Add some expenses to get started.
-</p>,
-    },
-    "ref": null,
-    "rendered": Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": "Add some expenses to get started.",
-      },
-      "ref": null,
-      "rendered": "Add some expenses to get started.",
-      "type": "p",
-    },
-    "type": "div",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": <p>
-          Add some expenses to get started.
-</p>,
-      },
-      "ref": null,
-      "rendered": Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": "Add some expenses to get started.",
-        },
-        "ref": null,
-        "rendered": "Add some expenses to get started.",
-        "type": "p",
-      },
-      "type": "div",
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": false,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": false,
-          },
-          "getSnapshotBeforeUpdate": true,
-          "setState": Object {
-            "skipsComponentDidUpdateOnNullish": true,
-          },
-        },
-      },
-    },
-  },
-}
+<div>
+  <p>
+    Add some expenses to get started.
+  </p>
+</div>
 `;
 
 exports[`should render ExpenseList with expenses 1`] = `
-ShallowWrapper {
-  "length": 1,
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <ExpenseList
-    expenses={
-        Array [
-            Object {
-              "amount": 1100,
-              "createdAt": 0,
-              "description": "Sandwich",
-              "id": "01",
-              "note": "It was a good sandwich",
-            },
-            Object {
-              "amount": 2200,
-              "createdAt": -17283600000,
-              "description": "Hat",
-              "id": "02",
-              "note": "I needed a hat",
-            },
-            Object {
-              "amount": 3300,
-              "createdAt": -1728000000,
-              "description": "Beer bar",
-              "id": "03",
-              "note": "Good beer. Too much of it.",
-            },
-            Object {
-              "amount": 4400,
-              "createdAt": 17276400000,
-              "description": "Power bill",
-              "id": "04",
-              "note": "",
-            },
-            Object {
-              "amount": 5500,
-              "createdAt": 43196400000,
-              "description": "Groceries",
-              "id": "05",
-              "note": "St Martin's store",
-            },
-          ]
-    }
-/>,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateError": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "host",
-    "props": Object {
-      "children": Array [
-        <ExpenseListItem
-          amount={1100}
-          createdAt={0}
-          description="Sandwich"
-          id="01"
-          note="It was a good sandwich"
-/>,
-        <ExpenseListItem
-          amount={2200}
-          createdAt={-17283600000}
-          description="Hat"
-          id="02"
-          note="I needed a hat"
-/>,
-        <ExpenseListItem
-          amount={3300}
-          createdAt={-1728000000}
-          description="Beer bar"
-          id="03"
-          note="Good beer. Too much of it."
-/>,
-        <ExpenseListItem
-          amount={4400}
-          createdAt={17276400000}
-          description="Power bill"
-          id="04"
-          note=""
-/>,
-        <ExpenseListItem
-          amount={5500}
-          createdAt={43196400000}
-          description="Groceries"
-          id="05"
-          note="St Martin's store"
-/>,
-      ],
-    },
-    "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": "01",
-        "nodeType": "function",
-        "props": Object {
-          "amount": 1100,
-          "createdAt": 0,
-          "description": "Sandwich",
-          "id": "01",
-          "note": "It was a good sandwich",
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": "02",
-        "nodeType": "function",
-        "props": Object {
-          "amount": 2200,
-          "createdAt": -17283600000,
-          "description": "Hat",
-          "id": "02",
-          "note": "I needed a hat",
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": "03",
-        "nodeType": "function",
-        "props": Object {
-          "amount": 3300,
-          "createdAt": -1728000000,
-          "description": "Beer bar",
-          "id": "03",
-          "note": "Good beer. Too much of it.",
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": "04",
-        "nodeType": "function",
-        "props": Object {
-          "amount": 4400,
-          "createdAt": 17276400000,
-          "description": "Power bill",
-          "id": "04",
-          "note": "",
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": "05",
-        "nodeType": "function",
-        "props": Object {
-          "amount": 5500,
-          "createdAt": 43196400000,
-          "description": "Groceries",
-          "id": "05",
-          "note": "St Martin's store",
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-    ],
-    "type": "div",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": Array [
-          <ExpenseListItem
-            amount={1100}
-            createdAt={0}
-            description="Sandwich"
-            id="01"
-            note="It was a good sandwich"
-/>,
-          <ExpenseListItem
-            amount={2200}
-            createdAt={-17283600000}
-            description="Hat"
-            id="02"
-            note="I needed a hat"
-/>,
-          <ExpenseListItem
-            amount={3300}
-            createdAt={-1728000000}
-            description="Beer bar"
-            id="03"
-            note="Good beer. Too much of it."
-/>,
-          <ExpenseListItem
-            amount={4400}
-            createdAt={17276400000}
-            description="Power bill"
-            id="04"
-            note=""
-/>,
-          <ExpenseListItem
-            amount={5500}
-            createdAt={43196400000}
-            description="Groceries"
-            id="05"
-            note="St Martin's store"
-/>,
-        ],
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": "01",
-          "nodeType": "function",
-          "props": Object {
-            "amount": 1100,
-            "createdAt": 0,
-            "description": "Sandwich",
-            "id": "01",
-            "note": "It was a good sandwich",
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": "02",
-          "nodeType": "function",
-          "props": Object {
-            "amount": 2200,
-            "createdAt": -17283600000,
-            "description": "Hat",
-            "id": "02",
-            "note": "I needed a hat",
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": "03",
-          "nodeType": "function",
-          "props": Object {
-            "amount": 3300,
-            "createdAt": -1728000000,
-            "description": "Beer bar",
-            "id": "03",
-            "note": "Good beer. Too much of it.",
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": "04",
-          "nodeType": "function",
-          "props": Object {
-            "amount": 4400,
-            "createdAt": 17276400000,
-            "description": "Power bill",
-            "id": "04",
-            "note": "",
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": "05",
-          "nodeType": "function",
-          "props": Object {
-            "amount": 5500,
-            "createdAt": 43196400000,
-            "description": "Groceries",
-            "id": "05",
-            "note": "St Martin's store",
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-      ],
-      "type": "div",
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromError": false,
-          "getDerivedStateFromProps": Object {
-            "hasShouldComponentUpdateBug": false,
-          },
-          "getSnapshotBeforeUpdate": true,
-          "setState": Object {
-            "skipsComponentDidUpdateOnNullish": true,
-          },
-        },
-      },
-    },
-  },
-}
+<div>
+  <ExpenseListItem
+    amount={1100}
+    createdAt={0}
+    description="Sandwich"
+    id="01"
+    key="01"
+    note="It was a good sandwich"
+  />
+  <ExpenseListItem
+    amount={2200}
+    createdAt={-17283600000}
+    description="Hat"
+    id="02"
+    key="02"
+    note="I needed a hat"
+  />
+  <ExpenseListItem
+    amount={3300}
+    createdAt={-1728000000}
+    description="Beer bar"
+    id="03"
+    key="03"
+    note="Good beer. Too much of it."
+  />
+  <ExpenseListItem
+    amount={4400}
+    createdAt={17276400000}
+    description="Power bill"
+    id="04"
+    key="04"
+    note=""
+  />
+  <ExpenseListItem
+    amount={5500}
+    createdAt={43196400000}
+    description="Groceries"
+    id="05"
+    key="05"
+    note="St Martin's store"
+  />
+</div>
 `;
