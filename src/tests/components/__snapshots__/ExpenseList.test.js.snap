@@ -1,54 +1,108 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Should render default message when expense array is empty 1`] = `
-<div>
-  <p>
-    Add some expenses to get started.
-  </p>
+<div
+  className="content-container"
+>
+  <div
+    className="list-header"
+  >
+    <div
+      className="show-for-mobile"
+    >
+      Expenses
+    </div>
+    <div
+      className="show-for-desktop"
+    >
+      Expense
+    </div>
+    <div
+      className="show-for-desktop"
+    >
+      Amount
+    </div>
+  </div>
+  <div
+    className="list-body"
+  >
+    <div
+      class="list-item list-item--message"
+    >
+      <span>
+        Add some expenses to get started.
+      </span>
+    </div>
+  </div>
 </div>
 `;
 
 exports[`should render ExpenseList with expenses 1`] = `
-<div>
-  <ExpenseListItem
-    amount={1100}
-    createdAt={0}
-    description="Sandwich"
-    id="01"
-    key="01"
-    note="It was a good sandwich"
-  />
-  <ExpenseListItem
-    amount={2200}
-    createdAt={-17283600000}
-    description="Hat"
-    id="02"
-    key="02"
-    note="I needed a hat"
-  />
-  <ExpenseListItem
-    amount={3300}
-    createdAt={-1728000000}
-    description="Beer bar"
-    id="03"
-    key="03"
-    note="Good beer. Too much of it."
-  />
-  <ExpenseListItem
-    amount={4400}
-    createdAt={17276400000}
-    description="Power bill"
-    id="04"
-    key="04"
-    note=""
-  />
-  <ExpenseListItem
-    amount={5500}
-    createdAt={43196400000}
-    description="Groceries"
-    id="05"
-    key="05"
-    note="St Martin's store"
-  />
+<div
+  className="content-container"
+>
+  <div
+    className="list-header"
+  >
+    <div
+      className="show-for-mobile"
+    >
+      Expenses
+    </div>
+    <div
+      className="show-for-desktop"
+    >
+      Expense
+    </div>
+    <div
+      className="show-for-desktop"
+    >
+      Amount
+    </div>
+  </div>
+  <div
+    className="list-body"
+  >
+    <ExpenseListItem
+      amount={1100}
+      createdAt={0}
+      description="Sandwich"
+      id="01"
+      key="01"
+      note="It was a good sandwich"
+    />
+    <ExpenseListItem
+      amount={2200}
+      createdAt={-17283600000}
+      description="Hat"
+      id="02"
+      key="02"
+      note="I needed a hat"
+    />
+    <ExpenseListItem
+      amount={3300}
+      createdAt={-1728000000}
+      description="Beer bar"
+      id="03"
+      key="03"
+      note="Good beer. Too much of it."
+    />
+    <ExpenseListItem
+      amount={4400}
+      createdAt={17276400000}
+      description="Power bill"
+      id="04"
+      key="04"
+      note=""
+    />
+    <ExpenseListItem
+      amount={5500}
+      createdAt={43196400000}
+      description="Groceries"
+      id="05"
+      key="05"
+      note="St Martin's store"
+    />
+  </div>
 </div>
 `;
